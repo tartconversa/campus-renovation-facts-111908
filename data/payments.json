@@ -1,0 +1,21 @@
+[
+  {
+    "payment_id": "P1",
+    "amount_fen": 50000,
+    "acceptance_ids": [
+      "AC1",
+      "AC2"
+    ],
+    "occurred_on": "2026-10-30",
+    "reverses": null
+  },
+  {
+    "payment_id": "P2",
+    "amount_fen": -10000,
+    "acceptance_ids": [
+      "AC1"
+    ],
+    "occurred_on": "2026-11-02",
+    "reverses": "P1"
+  }
+]

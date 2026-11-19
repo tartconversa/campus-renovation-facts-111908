@@ -1,0 +1,27 @@
+[
+  {
+    "variation_id": "V1",
+    "from_items": [
+      "K1V1"
+    ],
+    "to_items": [
+      "K1V2A",
+      "K1V2B"
+    ],
+    "effective_date": "2026-10-15",
+    "retroactive": false,
+    "unit_price_fen": null
+  },
+  {
+    "variation_id": "V2",
+    "from_items": [
+      "K1V2A"
+    ],
+    "to_items": [
+      "K1V2A"
+    ],
+    "effective_date": "2026-10-16",
+    "retroactive": true,
+    "unit_price_fen": 12500
+  }
+]

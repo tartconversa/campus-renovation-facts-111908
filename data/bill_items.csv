@@ -1,0 +1,4 @@
+item_key,contract_id,line_no,version,description,unit,unit_price_fen,total_fen,price_from,price_until
+K1V1,K1,L1,1,整栋改造,building,,1000000,2026-10-01,
+K1V2A,K1,L1,2,无障碍通道,m2,12000,480000,2026-10-15,
+K1V2B,K1,L2,2,活动空间,m2,10000,520000,2026-10-15,

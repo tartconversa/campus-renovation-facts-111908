@@ -1,0 +1,90 @@
+[
+  {
+    "measure_id": "M1",
+    "revision": 1,
+    "item_key": "K1V2A",
+    "space_id": "S2",
+    "quantity": "2",
+    "measured_on": "2026-10-16"
+  },
+  {
+    "measure_id": "M2",
+    "revision": 1,
+    "item_key": "K1V2B",
+    "space_id": "S3",
+    "quantity": "3",
+    "measured_on": "2026-10-17"
+  },
+  {
+    "measure_id": "M3",
+    "revision": 1,
+    "item_key": "K1V2A",
+    "space_id": "S1",
+    "quantity": "4",
+    "measured_on": "2026-10-18"
+  },
+  {
+    "measure_id": "M4",
+    "revision": 1,
+    "item_key": "K1V2B",
+    "space_id": "S2",
+    "quantity": "5",
+    "measured_on": "2026-10-19"
+  },
+  {
+    "measure_id": "M5",
+    "revision": 1,
+    "item_key": "K1V2A",
+    "space_id": "S3",
+    "quantity": "6",
+    "measured_on": "2026-10-20"
+  },
+  {
+    "measure_id": "M6",
+    "revision": 1,
+    "item_key": "K1V2B",
+    "space_id": "S1",
+    "quantity": "7",
+    "measured_on": "2026-10-21"
+  },
+  {
+    "measure_id": "M7",
+    "revision": 1,
+    "item_key": "K1V2A",
+    "space_id": "S2",
+    "quantity": "8",
+    "measured_on": "2026-10-22"
+  },
+  {
+    "measure_id": "M8",
+    "revision": 1,
+    "item_key": "K1V2B",
+    "space_id": "S3",
+    "quantity": "9",
+    "measured_on": "2026-10-23"
+  },
+  {
+    "measure_id": "M9",
+    "revision": 1,
+    "item_key": "K1V2A",
+    "space_id": "S1",
+    "quantity": "10",
+    "measured_on": "2026-10-24"
+  },
+  {
+    "measure_id": "M10",
+    "revision": 1,
+    "item_key": "K1V2B",
+    "space_id": "S2",
+    "quantity": "11",
+    "measured_on": "2026-10-25"
+  },
+  {
+    "measure_id": "M1",
+    "revision": 2,
+    "item_key": "K1V2A",
+    "space_id": "S2",
+    "quantity": "1",
+    "measured_on": "2026-10-16"
+  }
+]

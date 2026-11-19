@@ -1,0 +1,100 @@
+{
+  "synthetic": true,
+  "files": [
+    {
+      "path": "data/bill_items.csv",
+      "format": "csv",
+      "sha256": "ffd6d7c40089437fbbcd953297cb82d62f8998bbfc2fe5697e018ed2e30c01f5",
+      "rows": 3,
+      "fields": [
+        "item_key",
+        "contract_id",
+        "line_no",
+        "version",
+        "description",
+        "unit",
+        "unit_price_fen",
+        "total_fen",
+        "price_from",
+        "price_until"
+      ],
+      "references": []
+    },
+    {
+      "path": "data/measures.json",
+      "format": "json",
+      "sha256": "c05c22e620fdf8244ee1841a31f731d3b0b5985c5eff90e5570e154bf8bb7ad9",
+      "rows": 11,
+      "fields": [
+        "measure_id",
+        "revision",
+        "item_key",
+        "space_id",
+        "quantity",
+        "measured_on"
+      ],
+      "references": []
+    },
+    {
+      "path": "data/acceptance_links.json",
+      "format": "json",
+      "sha256": "31ba3b5fb068b8e136710465df6ea1a34240dfdc9ad6e5271ed3d6e3b13d9cde",
+      "rows": 4,
+      "fields": [
+        "link_id",
+        "acceptance_id",
+        "measure_id",
+        "quantity",
+        "status",
+        "supersedes"
+      ],
+      "references": [
+        {
+          "field": "measure_id",
+          "target": "data/measures.json",
+          "target_field": "measure_id"
+        },
+        {
+          "field": "supersedes",
+          "target": "data/acceptance_links.json",
+          "target_field": "link_id"
+        }
+      ]
+    },
+    {
+      "path": "data/variations.json",
+      "format": "json",
+      "sha256": "32489c63855e8f2ca53c1268a95e3fc5f7d817a565ffcb33a6b1baee908e6f32",
+      "rows": 2,
+      "fields": [
+        "variation_id",
+        "from_items",
+        "to_items",
+        "effective_date",
+        "retroactive",
+        "unit_price_fen"
+      ],
+      "references": []
+    },
+    {
+      "path": "data/payments.json",
+      "format": "json",
+      "sha256": "f46ffdb3c63f111266e74d7e110aa1c4352ff3d1711fe5e72f129f8275d24e23",
+      "rows": 2,
+      "fields": [
+        "payment_id",
+        "amount_fen",
+        "acceptance_ids",
+        "occurred_on",
+        "reverses"
+      ],
+      "references": [
+        {
+          "field": "reverses",
+          "target": "data/payments.json",
+          "target_field": "payment_id"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "link_id": "A1",
+    "acceptance_id": "AC1",
+    "measure_id": "M1",
+    "quantity": "1",
+    "status": "accepted",
+    "supersedes": null
+  },
+  {
+    "link_id": "A2",
+    "acceptance_id": "AC2",
+    "measure_id": "M1",
+    "quantity": "1",
+    "status": "accepted",
+    "supersedes": null
+  },
+  {
+    "link_id": "A3",
+    "acceptance_id": "AC3",
+    "measure_id": "M2",
+    "quantity": "2",
+    "status": "accepted",
+    "supersedes": null
+  },
+  {
+    "link_id": "A4",
+    "acceptance_id": "AC4",
+    "measure_id": "M2",
+    "quantity": "2",
+    "status": "accepted",
+    "supersedes": "A3"
+  }
+]
