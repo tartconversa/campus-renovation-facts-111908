@@ -1,0 +1,4 @@
+# 来源资料与代码统一 LF 行尾入库，避免 CRLF 漂移导致 SHA-256 指纹失配
+* text=auto eol=lf
+*.sqlite binary
+*.db binary

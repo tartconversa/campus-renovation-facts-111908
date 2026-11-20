@@ -4,7 +4,7 @@
     {
       "path": "data/bill_items.csv",
       "format": "csv",
-      "sha256": "ffd6d7c40089437fbbcd953297cb82d62f8998bbfc2fe5697e018ed2e30c01f5",
+      "sha256": "4b540214f3d2260796bb9791900aef3bd9c40490e237db8cd6d3bf96079f8b74",
       "rows": 3,
       "fields": [
         "item_key",
@@ -23,7 +23,7 @@
     {
       "path": "data/measures.json",
       "format": "json",
-      "sha256": "c05c22e620fdf8244ee1841a31f731d3b0b5985c5eff90e5570e154bf8bb7ad9",
+      "sha256": "2ca2cd05af85be405558efd3dd14eb318108ae507707a8415d68f3f361ef88fc",
       "rows": 11,
       "fields": [
         "measure_id",
@@ -38,7 +38,7 @@
     {
       "path": "data/acceptance_links.json",
       "format": "json",
-      "sha256": "31ba3b5fb068b8e136710465df6ea1a34240dfdc9ad6e5271ed3d6e3b13d9cde",
+      "sha256": "2dfa0f49fef4ac4883246de1543e454d4655d9bcf789c1368d071a493e1d87a4",
       "rows": 4,
       "fields": [
         "link_id",
@@ -64,7 +64,7 @@
     {
       "path": "data/variations.json",
       "format": "json",
-      "sha256": "32489c63855e8f2ca53c1268a95e3fc5f7d817a565ffcb33a6b1baee908e6f32",
+      "sha256": "a73c292f74415052edcb3e74de93a247aed3652eebfdf3f4623cd088caef3b4a",
       "rows": 2,
       "fields": [
         "variation_id",
@@ -79,7 +79,7 @@
     {
       "path": "data/payments.json",
       "format": "json",
-      "sha256": "f46ffdb3c63f111266e74d7e110aa1c4352ff3d1711fe5e72f129f8275d24e23",
+      "sha256": "d13589b74703b8b3ffef40b1bb968522a52da814291a56325434fb8d35a6c152",
       "rows": 2,
       "fields": [
         "payment_id",

@@ -1,6 +1,7 @@
 """资料自检与负向校验。"""
 from pathlib import Path
 import json,shutil,tempfile,unittest
+import _path  # noqa: F401  隔离模式路径引导
 from support.check_inputs import check
 ROOT=Path(__file__).resolve().parents[1]
 class Materials(unittest.TestCase):
